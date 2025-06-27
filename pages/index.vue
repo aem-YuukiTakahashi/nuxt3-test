@@ -3,6 +3,9 @@
     <h1>Welcome to Nuxt3!</h1>
     <NuxtLink to="/about" class="link">Aboutページへ</NuxtLink>
     <NuxtLink to="/toDoList" class="link">ToDoリストへ</NuxtLink>
+
+    <base-depth2-frame2 />
+    <base-sec-information />
   </div>
 </template>
 
