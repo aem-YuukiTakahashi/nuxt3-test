@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <h2>{{ heading }}</h2>
     <p>これはToDoリストです。</p>
     <form @submit.prevent="addTodo">
@@ -14,6 +14,8 @@
       </li>
     </ul>
     <p v-else>ToDoリストがありません。</p>
+
+    <NuxtLink to="/" class="link">Home</NuxtLink>
   </div>
 </template>
 
@@ -50,7 +52,50 @@ function addTodo() {
     border-radius: 8px;
   }
 
+  .container {
+    min-height: 100vh;
+  }
+
   .completed {
     color: #aaa;
+  }
+
+  .link {
+    display: inline-block;
+    padding: 2rem;
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2rem;
+  }
+
+  form {
+    display: flex;
+    gap: 1rem;
+
+    input {
+      flex: 1;
+    }
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: 1rem;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    }
   }
 </style>

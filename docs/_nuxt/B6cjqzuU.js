@@ -1,1 +1,0 @@
-import{g as o,r as s,c as n,o as r,a as e,t as u,j as l,_ as p}from"./CydU1Mie.js";const _=o({__name:"about",setup(c){const a=s("Aboutページ");return(f,t)=>(r(),n("div",null,[e("h2",null,u(l(a)),1),t[0]||(t[0]=e("p",null,"これはAboutページです。",-1))]))}}),i=p(_,[["__scopeId","data-v-2842f045"]]);export{i as default};

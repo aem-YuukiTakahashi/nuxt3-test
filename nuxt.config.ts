@@ -7,5 +7,7 @@ export default defineNuxtConfig({
   },
   nitro: {
     preset: 'static'
-  }
+  },
+  css: ['~/assets/css/lenis.css'],
+
 })
