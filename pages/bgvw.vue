@@ -1,19 +1,21 @@
 <template>
   <div class="container">
-    <div class="inner">
-      <article>
-        <h2>{{ heading }}</h2>
+    <div class="max-width">
+      <div class="inner">
+        <article>
+          <h2>{{ heading }}</h2>
 
-        <div class="article-body">
+          <div class="article-body">
 
-          <div class="coming-soon">
-            <h3>Coming Soon</h3>
+            <div class="coming-soon">
+              <h3>Coming Soon</h3>
+            </div>
+
           </div>
-
-        </div>
-      </article>
+        </article>
 
 
+      </div>
     </div>
 
 
@@ -29,9 +31,13 @@
 
 <style scoped lang="scss">
   .container {
+    min-height: 100vh;
+    overflow: hidden;
+  }
+
+  .max-width {
     max-width: 1200px;
     margin: 0 auto;
-    min-height: 100vh;
   }
 
   .inner {
