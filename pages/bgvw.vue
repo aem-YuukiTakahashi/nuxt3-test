@@ -11,6 +11,11 @@
               <h3>Coming Soon</h3>
             </div>
 
+
+            <div class="coming-soon coming-soon--image">
+              <h3>Coming Soon</h3>
+            </div>
+
           </div>
         </article>
 
@@ -73,6 +78,17 @@
       background: #000;
       z-index: -1;
       transform: translateX(-50%);
+    }
+  }
+
+  .coming-soon--image {
+    margin-top: 80px;
+
+    &::before {
+      background-image: url('https://fastly.picsum.photos/id/884/1300/500.jpg?hmac=Rp7U5V8XbisdNjgvJi7OoD_-EpF-hqOlkxKHbZspVE4');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
     }
   }
 

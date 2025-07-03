@@ -1,0 +1,1 @@
+import{_ as a,c as n,o as s,a as o,b as r,T as _}from"./GNeavuU_.js";const c={};function d(l,e){const t=_;return s(),n("div",null,[e[0]||(e[0]=o("header",{class:"header"},"共通ヘッダー",-1)),o("main",null,[r(t)]),e[1]||(e[1]=o("footer",{class:"footer"},"共通フッター",-1))])}const u=a(c,[["render",d],["__scopeId","data-v-8696012b"]]);export{u as default};
